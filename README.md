@@ -1,5 +1,9 @@
 # argouml
-Main project of argouml.
+Main project of argouml 
+
+NOTE: This is an isolated copy for deployment practice and for hacking on arouml.
+      It may take a few attempts before I know how to navigate and make changes to the code.
+      Better to bash around here until changes are consistently constructive.
 
 Started in January 1998. Converted from CVS to Subversion in 2006. Converted to git in 2019.
 
