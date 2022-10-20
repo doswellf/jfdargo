@@ -1,0 +1,116 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] argouml-core                                                       [pom]
+[[1;34mINFO[m] argouml-core-model                                                 [jar]
+[[1;34mINFO[m] argouml-core-model-mdr                                             [jar]
+[[1;34mINFO[m] argouml-core-model-euml                                            [jar]
+[[1;34mINFO[m] argouml-app                                                        [jar]
+[[1;34mINFO[m] argouml-core-notation                                              [jar]
+[[1;34mINFO[m] argouml-core-transformer                                           [jar]
+[[1;34mINFO[m] argouml-core-umlpropertypanels                                     [jar]
+[[1;34mINFO[m] argouml-core-diagrams-activity2                                    [jar]
+[[1;34mINFO[m] argouml-core-diagrams-class2                                       [jar]
+[[1;34mINFO[m] argouml-core-diagrams-sequence2                                    [jar]
+[[1;34mINFO[m] argouml-core-diagrams-state2                                       [jar]
+[[1;34mINFO[m] argouml-core-diagrams-structure2                                   [jar]
+[[1;34mINFO[m] argouml-core-diagrams-deployment2                                  [jar]
+[[1;34mINFO[m] argouml-build                                                      [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.argouml:argouml-core[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding argouml-core 0.35.2-SNAPSHOT                             [1/15][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.1:enforce[m [1m(enforce-maven)[m @ [36margouml-core[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:prepare-agent[m [1m(default)[m @ [36margouml-core[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/fraser/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/usr/HOME/FRASER/build/argouml/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.4:unpack[m [1m(unpack-testmodels)[m @ [36margouml-core[0;1m ---[m
+[[1;34mINFO[m] Configured Artifact: org.argouml:testmodels:0.35.2-SNAPSHOT:jar
+> isMarkerOlder:
+  artifact1 = /home/fraser/.m2/repository/org/argouml/testmodels/0.35.2-SNAPSHOT/testmodels-0.35.2-SNAPSHOT.jar
+  marker    = /usr/HOME/FRASER/build/argouml/target/dependency-maven-plugin-markers/org.argouml-testmodels-jar-0.35.2-SNAPSHOT.marker
+    artifact1 lastModified: 1666153341915
+    marker lastModified: 1666153341915
+< false = marker older than artifact?
+[[1;34mINFO[m] testmodels-0.35.2-SNAPSHOT.jar already unpacked.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:report[m [1m(report)[m @ [36margouml-core[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36morg.argouml:argouml-model[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding argouml-core-model 0.35.2-SNAPSHOT                       [2/15][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.1:enforce[m [1m(enforce-maven)[m @ [36margouml-model[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:prepare-agent[m [1m(default)[m @ [36margouml-model[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/fraser/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/usr/HOME/FRASER/build/argouml/src/argouml-core-model/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.4:resources[m [1m(default-resources)[m @ [36margouml-model[0;1m ---[m
+[[1;34mINFO[m] Using 'ISO-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 86 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.3.1:compile[m [1m(default-compile)[m @ [36margouml-model[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.4:testResources[m [1m(default-testResources)[m @ [36margouml-model[0;1m ---[m
+[[1;34mINFO[m] Using 'ISO-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /usr/HOME/FRASER/build/argouml/src/argouml-core-model/dont-run-the-tests
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.4:unpack[m [1m(unpack-testmodels)[m @ [36margouml-model[0;1m ---[m
+[[1;34mINFO[m] Configured Artifact: org.argouml:testmodels:0.35.2-SNAPSHOT:jar
+> isMarkerOlder:
+  artifact1 = /home/fraser/.m2/repository/org/argouml/testmodels/0.35.2-SNAPSHOT/testmodels-0.35.2-SNAPSHOT.jar
+  marker    = /usr/HOME/FRASER/build/argouml/src/argouml-core-model/target/dependency-maven-plugin-markers/org.argouml-testmodels-jar-0.35.2-SNAPSHOT.marker
+    artifact1 lastModified: 1666153341915
+    marker lastModified: 1666153341915
+< false = marker older than artifact?
+[[1;34mINFO[m] testmodels-0.35.2-SNAPSHOT.jar already unpacked.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.3.1:testCompile[m [1m(default-testCompile)[m @ [36margouml-model[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.8.1:test[m [1m(default-test)[m @ [36margouml-model[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /usr/HOME/FRASER/build/argouml/src/argouml-core-model/target/surefire-reports
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:report[m [1m(report)[m @ [36margouml-model[0;1m ---[m
+[[1;34mINFO[m] Skipping JaCoCo execution due to missing execution data file.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.argouml:argouml-mdr[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding argouml-core-model-mdr 0.35.2-SNAPSHOT                   [3/15][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:1.1:enforce[m [1m(enforce-maven)[m @ [36margouml-mdr[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.5:prepare-agent[m [1m(default)[m @ [36margouml-mdr[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/home/fraser/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/usr/HOME/FRASER/build/argouml/src/argouml-core-model-mdr/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.4:resources[m [1m(default-resources)[m @ [36margouml-mdr[0;1m ---[m
+[[1;34mINFO[m] Using 'ISO-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 63 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.3.1:compile[m [1m(default-compile)[m @ [36margouml-mdr[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.4:testResources[m [1m(default-testResources)[m @ [36margouml-mdr[0;1m ---[m
+[[1;34mINFO[m] Using 'ISO-8859-1' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 33 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-dependency-plugin:2.4:unpack[m [1m(unpack-testmodels)[m @ [36margouml-mdr[0;1m ---[m
+[[1;34mINFO[m] Configured Artifact: org.argouml:testmodels:0.35.2-SNAPSHOT:jar
+> isMarkerOlder:
+  artifact1 = /home/fraser/.m2/repository/org/argouml/testmodels/0.35.2-SNAPSHOT/testmodels-0.35.2-SNAPSHOT.jar
+  marker    = /usr/HOME/FRASER/build/argouml/src/argouml-core-model-mdr/target/dependency-maven-plugin-markers/org.argouml-testmodels-jar-0.35.2-SNAPSHOT.marker
+    artifact1 lastModified: 1666153341915
+    marker lastModified: 1666153341915
+< false = marker older than artifact?
+[[1;34mINFO[m] testmodels-0.35.2-SNAPSHOT.jar already unpacked.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:2.3.1:testCompile[m [1m(default-testCompile)[m @ [36margouml-mdr[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.8.1:test[m [1m(default-test)[m @ [36margouml-mdr[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /usr/HOME/FRASER/build/argouml/src/argouml-core-model-mdr/target/surefire-reports
